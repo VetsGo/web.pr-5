@@ -1,0 +1,408 @@
+@media (min-width: 1200px) {
+    body {
+        font-family: arial;
+    }
+
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    .all>p {
+        text-align: center;
+    }
+
+    .title {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    input {
+        display: none;
+    }
+
+    .filter {
+        text-align: center;
+        width: 25%;
+        background: #f6f7f8;
+        height: 90%;
+        border-radius: 10px;
+    }
+
+    .filter p {
+        font-size: 20px;
+        color: #20384d;
+    }
+
+    .bar img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t {
+        font-size: 20px;
+        height: 40px;
+        margin: 10px;
+        padding: 5px 5px;
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+        background: #e3e6e9;
+        text-decoration: none;
+        color: #20384d;
+        border: 1px solid #ccc;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+
+    }
+
+    .card {
+        width: 350px;
+        height: 192px;
+        margin: 5px;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #E5E7EA;
+        background-color: #f6f7f8;
+    }
+
+    .name {
+        float: right;
+        margin-right: 40px;
+    }
+
+    .image {
+        max-width: 300px;
+        width: 200px;
+        height: 140px;
+    }
+
+    .image img {
+        margin-left: 10px;
+        margin-top: 10px;
+        display: block;
+        height: 8rem;
+        width: 10rem;
+    }
+
+    .image~p {
+        margin-left: 10px;
+    }
+
+    .contacts {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .company {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 730px) {
+    body {
+        font-family: arial;
+
+    }
+
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .all>p {
+        text-align: center;
+    }
+
+    .title {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    input {
+        display: none;
+    }
+
+    .filter {
+        text-align: center;
+        width: 100%;
+        background: #f6f7f8;
+        border-radius: 10px;
+    }
+
+    .filter p,
+    .filter img {
+        font-size: 20px;
+        color: #20384d;
+        display: none;
+    }
+
+    .bar img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .t {
+        width: 42%;
+        font-size: 15px;
+        height: 15px;
+        margin: 5px;
+        padding: 5px 5px;
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+        background: #e3e6e9;
+        text-decoration: none;
+        color: #20384d;
+        border: 1px solid #ccc;
+        line-height: 10px;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 180px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .name {
+        float: right;
+        display: none;
+    }
+
+    .image {
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .image img {
+        margin-left: 10px;
+        margin-top: 10px;
+        display: block;
+        height: 8rem;
+        width: 10rem;
+    }
+
+    .image~p {
+        margin-left: 10px;
+        display: none;
+    }
+
+    .contacts {
+        position: absolute;
+        bottom: 18px;
+        left: 0;
+        text-align: left;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .company {
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        text-align: left;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .cupake,
+    .cake {
+        display: none;
+    }
+}
+
+@media (min-width: 730px) and (max-width: 1200px) {
+    body {
+        font-family: arial;
+
+    }
+
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .all>p {
+        text-align: center;
+    }
+
+    .title {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    input {
+        display: none;
+    }
+
+    .filter {
+        text-align: center;
+        width: 100%;
+        background: #f6f7f8;
+        border-radius: 10px;
+    }
+
+    .filter p,
+    .filter img {
+        font-size: 20px;
+        color: #20384d;
+        display: none;
+    }
+
+    .bar img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .t {
+        width: 30%;
+        font-size: 20px;
+        height: 30px;
+        margin: 10px;
+        padding: 5px 5px;
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+        background: #e3e6e9;
+        text-decoration: none;
+        color: #20384d;
+        border: 1px solid #ccc;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .gallery {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 32%;
+        height: 180px;
+        margin: 5px;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #E5E7EA;
+        background-color: #f6f7f8;
+    }
+
+    .name {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image {
+        width: 60%;
+        height: 140px;
+    }
+
+    .image img {
+        margin-left: 10px;
+        margin-top: 10px;
+        display: block;
+        height: 8rem;
+        width: 10rem;
+    }
+
+    .image~p {
+        margin-left: 10px;
+    }
+
+    .contacts {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .company {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    .cake, .card p {
+        display: none;
+    }
+}
+
+#pie:checked~.gallery>div:not([class*='pie']),
+#roll:checked~.gallery>div:not([class*='roll']),
+#cheeseakes:checked~.gallery>div:not([class*='cheeseakes']),
+#cupake:checked~.gallery>div:not([class*='cupake']),
+#cake:checked~.gallery>div:not([class*='cake']) {
+    display: none;
+}
+
+
+#pie:checked~.t1,
+#roll:checked~.t2,
+#cheeseakes:checked~.t3,
+#cupake:checked~.t4,
+#cake:checked~.t5,
+#all:checked~.all {
+    background: black;
+    color: white;
+}
